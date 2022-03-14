@@ -59,10 +59,10 @@ export const AddHouse = () => {
         <label>preferredTenant</label>
         <br />
         <label>bachelor</label>
-        <input checked={"bachelor"} type="checkbox" value={houseData.bachelor}  className="bachelor" onChange={handleChange}/>
+        <input checked={"bachelor"} type="checkbox" value = "bachelor"  className="bachelor" onChange={handleChange}/>
         <br />
         <label>married</label>
-        <input checked={"married"} type="checkbox"  value={houseData.married} className="married" onChange={handleChange}/>
+        <input checked={"married"} type="checkbox"  value= "married" className="married" onChange={handleChange}/>
         <br />
         <label>image</label>
         <input  type="text" className="image" value={houseData.image}  onChange={handleChange}/>

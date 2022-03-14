@@ -60,6 +60,7 @@ const [houseData, setHouseData] = useState([])
                 <td className="rent">{house.rent}</td>
                 <td className="preferredTenants">
                   {/* Show text Both or Bachelors or Married based on values */}
+                  {house.bachelore && house.married ? "Bachelore, Married" : (house.bachelore ? "Bachelore" : "Married")}
                 </td>
                 <td className="houseImage">
                   <img src={house.image} alt="house" />

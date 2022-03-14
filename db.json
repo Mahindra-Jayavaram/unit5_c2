@@ -68,7 +68,7 @@
       "rent": "13432",
       "bachelor": "",
       "married": "",
-      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "id": 6
     },
     {
@@ -79,8 +79,19 @@
       "rent": "12321",
       "bachelor": "",
       "married": "",
-      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "id": 7
+    },
+    {
+      "name": "Ali",
+      "ownerName": "Mohamad Ali",
+      "address": "bypass",
+      "areaCode": "1233434",
+      "rent": "67890",
+      "bachelor": "",
+      "married": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 8
     }
   ]
 }
