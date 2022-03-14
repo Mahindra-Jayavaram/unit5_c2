@@ -1,0 +1,64 @@
+{
+  "houses": [
+    {
+      "name": "Mahiindra",
+      "ownerName": "Mahindra Jayavaram",
+      "address": "raninagar, ananatapur",
+      "areaCode": "1234",
+      "rent": "1000",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 1
+    },
+    {
+      "name": "Nani",
+      "ownerName": "Sai ",
+      "address": "3rd road, ananatapur",
+      "areaCode": "1234",
+      "rent": "10000",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 2
+    },
+    {
+      "name": "Renu",
+      "ownerName": "renuka prasad",
+      "address": "somammndepalle, ananatapur",
+      "areaCode": "1234",
+      "rent": "10000",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 3
+    },
+    {
+      "name": "saath",
+      "ownerName": "sarath chandra",
+      "address": "somammndepalle, ananatapur",
+      "areaCode": "1234",
+      "rent": "10000",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 4
+    },
+    {
+      "name": "manju",
+      "ownerName": "manjunath",
+      "address": "somammndepalle, ananatapur",
+      "areaCode": "1234",
+      "rent": "3000",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 5
+    }
+  ]
+}
