@@ -59,6 +59,28 @@
       "img": "",
       "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "id": 5
+    },
+    {
+      "name": "Chandu",
+      "ownerName": "chanduDanne",
+      "address": "hyd",
+      "areaCode": "345123",
+      "rent": "13432",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "id": 6
+    },
+    {
+      "name": "Devvudu",
+      "ownerName": "seena",
+      "address": "puttaparthi",
+      "areaCode": "134",
+      "rent": "12321",
+      "bachelor": "",
+      "married": "",
+      "img": "",
+      "id": 7
     }
   ]
 }

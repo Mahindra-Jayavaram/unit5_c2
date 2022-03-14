@@ -1,6 +1,25 @@
 import "./Rentals.css";
+import { useEffect, useState } from "react";
+import axios from "axios"
 
 export const Rentals = () => {
+const [houseData, setHouseData] = useState([])
+
+  useEffect(()=>{
+    getData();
+  },[])
+  const getData =()=>{
+
+    // const [houses, setHouses] = useState({})
+    axios.get("http://localhost:8080/houses").then((res)=>{
+      setHouseData(res.data)
+      console.log(res.data)
+
+    })
+
+
+  }
+  // console.log(houses)
   return (
     <div className="rentalContainer">
       <div className="sortingButtons">
@@ -29,9 +48,10 @@ export const Rentals = () => {
           </tr>
         </thead>
         <tbody>
-          {[].map((house, index) => {
+          {houseData.map((house, index) => {
+            console.log("houuseData",houseData)
             return (
-              <tr key={house.id} className="houseDetails">
+              <tr key = {house.id} className="houseDetails">
                 <td className="houseId">{house.id}</td>
                 <td className="houseName">{house.name} </td>
                 <td className="ownersName">{house.ownerName}</td>
@@ -43,6 +63,7 @@ export const Rentals = () => {
                 </td>
                 <td className="houseImage">
                   <img src={house.image} alt="house" />
+                  {/* <h1>{house.name}</h1> */}
                 </td>
               </tr>
             );
